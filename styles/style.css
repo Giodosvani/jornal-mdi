@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+/* MOBILE FIRST */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(44, 44, 44);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+    color: white;
+    text-align: center;
+    background-color: rgb(54, 54, 54);
+    padding: 40px;
+    margin-bottom: 10px;
+}
+
+.materia {
+    color: white;
+    text-align: justify;
+    max-width: 600px;
+    margin: auto;
+    background-color: rgb(105, 105, 105);
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.267);
+    border-radius: 3px;
+}
+
+.materia h1 {
+    text-align: left;
+}
+
+.materia q {
+    background-color: rgb(67, 67, 67);
+}
+.data {
+    font-size: .8em;
+    text-align: right;
+}
